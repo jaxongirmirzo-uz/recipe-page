@@ -1,0 +1,107 @@
+/* outfit-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/outfit-v11-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* outfit-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/outfit-v11-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* outfit-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/outfit-v11-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(95, 86, 77, 1);
+  background-color: rgba(227, 221, 215, 1);
+  padding-top: 123px;
+  padding-bottom: 123px;
+}
+
+.container {
+  width: 100%;
+  max-width: 776px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 24px;
+}
+.main-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  margin-bottom: 24px;
+}
+.title {
+  color: rgba(49, 46, 44, 1);
+  margin-bottom: 24px;
+  font-size: 400;
+}
+.intro-content {
+  margin-bottom: 32px;
+}
+
+.preparation-time {
+  padding: 28px;
+  background-color: rgba(255, 247, 251, 1);
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+.preparation-time-title {
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgba(122, 40, 78, 1);
+}
+.ingredients-item,
+.preparation-time-item {
+  list-style-type: disc;
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+.ingredients-title {
+  font-size: 28px;
+  margin-bottom: 24px;
+  line-height: 28px;
+  color: #854632;
+}
+.ingredients-list {
+  margin-left: 16px;
+}
+.ingredients {
+  margin-bottom: 32px;
+}
